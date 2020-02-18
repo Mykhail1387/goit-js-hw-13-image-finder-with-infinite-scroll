@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.listImages {
+  list-style: none;
+}
+
+.stats-item {
+  font-size: 24px;
+  font-weight: bold;
+  color: teal;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: auto;
+}
+
+.btn {
+  background-color: rgb(238, 79, 39);
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: solid 2px rgb(148, 7, 148);
+}
+
+.input {
+  font-size: 20px;
+  width: 250px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(194, 188, 188);
+}
